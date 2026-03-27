@@ -459,8 +459,7 @@ export default function NinoSimonaInvitation() {
                       transition={{ delay: 0.33, duration: 0.8 }}
                       className="mt-7 max-w-2xl text-xl font-medium leading-9 text-[#fffaf2] drop-shadow-[0_4px_14px_rgba(0,0,0,0.30)] md:text-2xl"
                     >
-                      Со искрена радост ве покануваме да бидете дел од еден исклучително важен и незаборавен момент — почетокот на нашето заедничко поглавје.
-                    </motion.p>
+                      Ве покануваме да ја споделиме среќата заедно, и заедно да создадеме спомени кои ќе траат засекогаш                    </motion.p>
 
                     <motion.div
                       initial={{ opacity: 0, y: 18 }}
