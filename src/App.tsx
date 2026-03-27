@@ -440,15 +440,7 @@ export default function NinoSimonaInvitation() {
                     transition={{ duration: 1, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
                     className="max-w-4xl text-white"
                   >
-                    <motion.div
-                      initial={{ opacity: 0, y: 16 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.18, duration: 0.7 }}
-                      className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#f1ddba]/40 bg-[linear-gradient(135deg,rgba(255,245,224,0.18),rgba(255,255,255,0.06))] px-4 py-2 text-[11px] uppercase tracking-[0.38em] text-[#fff5e3] backdrop-blur-md"
-                    >
-                      <Heart className="h-4 w-4 fill-current" />
-                      Веридба 2026
-                    </motion.div>
+                  
 
                     <motion.h1
                       initial={{ opacity: 0, y: 22 }}
