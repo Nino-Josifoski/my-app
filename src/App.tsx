@@ -389,7 +389,7 @@ export default function NinoSimonaInvitation() {
                       <div className="text-[11px] uppercase tracking-[0.42em] text-[#9f7b47]">Дигитална покана</div>
                       <h1 className="mt-4 font-display text-5xl text-stone-900 md:text-6xl">
                         <span className="bg-[linear-gradient(180deg,#7d5a2c_0%,#b9925f_55%,#e5c58e_100%)] bg-clip-text text-transparent">
-                          Нино &amp; Симона
+                          Нинослав &amp; Симона
                         </span>
                       </h1>
                       <p className="mt-4 text-sm uppercase tracking-[0.34em] text-[#8d7351]">
@@ -401,8 +401,7 @@ export default function NinoSimonaInvitation() {
                   <div className="text-center">
                     <div className="mb-2 text-[11px] uppercase tracking-[0.45em] text-[#9f7b47]">Со љубов и радост</div>
                     <p className="mx-auto max-w-md text-sm leading-7 text-stone-600 md:text-base">
-                      Со особена чест ве покануваме да бидете дел од денот што засекогаш ќе остане во нашите срца.
-                    </p>
+          Ве покануваме да ја споделиме среќата заедно, и заедно да создадеме спомени кои ќе траат засекогаш                    </p>
 
                     <motion.button
                       whileHover={{ scale: 1.03, y: -2 }}
@@ -449,7 +448,7 @@ export default function NinoSimonaInvitation() {
                       className="font-display text-6xl font-bold leading-[0.92] tracking-[0.03em] drop-shadow-[0_8px_30px_rgba(0,0,0,0.44)] md:text-8xl lg:text-[7.5rem]"
                     >
                       <span className="bg-[linear-gradient(180deg,#fffdf8_0%,#fff5e4_38%,#f3d29e_76%,#cf9950_100%)] bg-clip-text text-transparent">
-                        Нино &amp; Симона
+                        Нинослав &amp; Симона
                       </span>
                     </motion.h1>
 
@@ -459,7 +458,8 @@ export default function NinoSimonaInvitation() {
                       transition={{ delay: 0.33, duration: 0.8 }}
                       className="mt-7 max-w-2xl text-xl font-medium leading-9 text-[#fffaf2] drop-shadow-[0_4px_14px_rgba(0,0,0,0.30)] md:text-2xl"
                     >
-                      Ве покануваме да ја споделиме среќата заедно, и заедно да создадеме спомени кои ќе траат засекогаш                    </motion.p>
+                      Со искрена радост ве покануваме да бидете дел од еден исклучително важен и незаборавен момент — почетокот на нашето заедничко поглавје.
+                    </motion.p>
 
                     <motion.div
                       initial={{ opacity: 0, y: 18 }}
