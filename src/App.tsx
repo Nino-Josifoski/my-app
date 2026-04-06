@@ -393,7 +393,7 @@ export default function NinoSimonaInvitation() {
                         </span>
                       </h1>
                       <p className="mt-4 text-sm uppercase tracking-[0.34em] text-[#8d7351]">
-                          01.08.2026 · 11:30
+                          01.08.2026 · 11:00
                       </p>
                     </div>
                   </motion.div>
@@ -469,7 +469,7 @@ export default function NinoSimonaInvitation() {
                     >
                       {[
                         "01.08.2026",
-                        "11:30 часот",
+                        "11:00 часот",
                         "Св. Наум · Охрид",
                       ].map((item) => (
                         <div
