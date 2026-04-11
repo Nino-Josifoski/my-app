@@ -17,7 +17,7 @@ import {
   Users,
 } from "lucide-react";
 
-const EVENT_DATE = new Date("2026-08-01T11:30:00+02:00");
+const EVENT_DATE = new Date("2026-08-01T11:00:00+02:00");
 const MAP_URL =
   "https://www.google.com/maps/search/?api=1&query=Restaurant+Ostrovo+Sveti+Naum+Ohrid";
 const MUSIC_URL = "/music.mp3";
@@ -522,7 +522,7 @@ export default function NinoSimonaInvitation() {
               <section className="relative z-10 -mt-20 px-6 md:px-10 lg:px-16">
                 <div className="mx-auto grid max-w-6xl gap-4 rounded-[2.1rem] border border-white/50 bg-white/72 p-5 shadow-[0_24px_80px_rgba(61,44,29,0.12)] backdrop-blur-xl md:grid-cols-4 md:p-8">
                   <InfoCard icon={<CalendarDays className="h-5 w-5" />} label="Датум" value="01.08.2026" />
-                  <InfoCard icon={<Clock3 className="h-5 w-5" />} label="Време" value="11:30 часот" delay={0.06} />
+                  <InfoCard icon={<Clock3 className="h-5 w-5" />} label="Време" value="11:00 часот" delay={0.06} />
                   <InfoCard icon={<MapPin className="h-5 w-5" />} label="Локација" value="Св. Наум, Охрид" delay={0.12} />
                   <InfoCard icon={<PartyPopper className="h-5 w-5" />} label="Ресторан" value="Острово" delay={0.18} />
                 </div>
@@ -554,7 +554,7 @@ export default function NinoSimonaInvitation() {
                       <div className="mb-4 text-[11px] uppercase tracking-[0.36em] text-stone-500">Нашиот ден</div>
                       <h3 className="font-display text-4xl text-stone-900 md:text-5xl">Свеченост покрај езеро, природа и мир</h3>
                       <p className="mt-6 text-base leading-8 text-stone-600 md:text-lg">
-                        На <strong>01 август 2026</strong>, со почеток во <strong>11:30 часот</strong>, ќе го прославиме нашиот посебен момент во прекрасниот амбиент на <strong>Ресторан Острово</strong>, Св. Наум, Охрид.
+                        На <strong>01 август 2026</strong>, со почеток во <strong>11:00 часот</strong>, ќе го прославиме нашиот посебен момент во прекрасниот амбиент на <strong>Ресторан Острово</strong>, Св. Наум, Охрид.
                       </p>
                       <p className="mt-4 text-base leading-8 text-stone-600 md:text-lg">
                         Сакавме покана што не само што информира, туку создава чувство — нежно, свечено и современо искуство што ќе го почувствувате уште од првиот клик.
